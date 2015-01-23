@@ -15,5 +15,5 @@ Package.onUse(function(api) {
     ], 'client');
 
     if(api.export)
-        api.export('R');
+        api.export('ramda');
 });
